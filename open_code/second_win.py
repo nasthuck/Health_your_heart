@@ -126,7 +126,7 @@ try:
             global time
             time = time.addSecs(-1)
             self.text_timer.setText(time.toString("hh:mm:ss"))
-            self.text_timer.setFont(QFont("Times", 36, QFont.Bold))
+            self.text_timer.setFont(QFont("Bahnschrift SemiBold", 36, QFont.Bold))
             self.text_timer.setStyleSheet("color: rgb(206, 206, 206)")
             if time.toString("hh:mm:ss") == '00:00:00':
                 self.timer.stop()
@@ -140,7 +140,7 @@ try:
             global time
             time = time.addSecs(-1)
             self.text_timer.setText(time.toString("hh:mm:ss"))
-            self.text_timer.setFont(QFont("Times", 36, QFont.Bold))
+            self.text_timer.setFont(QFont("Bahnschrift SemiBold", 36, QFont.Bold))
             self.text_timer.setStyleSheet("color: rgb(206, 206, 206)")
             if time.toString("hh:mm:ss") == '00:00:00':
                 self.timer.stop()
@@ -154,7 +154,7 @@ try:
             global time
             time = time.addSecs(-1)
             self.text_timer.setText(time.toString("hh:mm:ss"))
-            self.text_timer.setFont(QFont("Times", 36, QFont.Bold))
+            self.text_timer.setFont(QFont("Bahnschrift SemiBold", 36, QFont.Bold))
             if int(time.toString("hh:mm:ss")[6:8]) >= 45:
                 self.text_timer.setStyleSheet("color: rgb(176, 206, 0)")
             elif int(time.toString("hh:mm:ss")[6:8]) <= 15:
